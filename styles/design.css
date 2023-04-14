@@ -1,3 +1,185 @@
-
-
-/*# sourceMappingURL=design.css.map */
+.container {
+  width: 1200px; /* background-color:aquamarine */
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.container .gnb {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  text-align: center;
+  width: 100%;
+}
+.container .gnb a {
+  text-transform: uppercase;
+  width: 12.5%;
+  height: 50px;
+  background: brown;
+  line-height: 50px;
+  font-size: 0.875rem;
+  color: #fff;
+  position: relative;
+}
+.container .gnb a::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 5px;
+  background: brown;
+  position: absolute;
+  top: -3px;
+  opacity: 0;
+}
+.container .gnb a:hover {
+  color: brown;
+  background: #fff;
+}
+.container .gnb a:hover::after {
+  opacity: 1;
+}
+.container .contents {
+  position: relative;
+  width: 100%;
+}
+.container .contents .tab1 {
+  width: 100%;
+  height: 300px;
+  background: blueviolet;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 150;
+}
+.container .contents .tab1 .big {
+  width: 60%;
+  height: 300px;
+  content: "";
+  background: url(../images/925e00e115701f52726bd4c38edee62c.jpg) no-repeat center;
+  background-size: cover;
+}
+.container .contents .tab1 .big_price {
+  opacity: 0;
+  position: absolute;
+}
+.container .contents .tab1 .right_list {
+  width: 40%;
+  height: 300px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.container .contents .tab1 .right_list .s1 {
+  width: 33.33%;
+  height: 150px;
+  position: relative;
+  background: url(../images/6813e0b4f67103a4b2fd930127e9e6a4.jpg) no-repeat center;
+  background-size: cover;
+  content: "";
+}
+.container .contents .tab1 .right_list .s1_price {
+  opacity: 0;
+  position: absolute;
+}
+.container .contents .tab1 .right_list .s2 {
+  width: 33.33%;
+  height: 150px;
+  background: url(../images/8342a141fee8f450d8cf958c02fd4df4.jpg) no-repeat center;
+  background-size: cover;
+  content: "";
+}
+.container .contents .tab1 .right_list .s2_price {
+  opacity: 0;
+}
+.container .contents .tab1 .right_list .s3 {
+  width: 33.33%;
+  height: 150px;
+  background: url(../images/986e01b804d091e939001f493d20fec7.jpg) no-repeat center;
+  background-size: cover;
+  content: "";
+}
+.container .contents .tab1 .right_list .s3_price {
+  opacity: 0;
+}
+.container .contents .tab1 .right_list .s4 {
+  width: 33.33%;
+  height: 150px;
+  background: url(../images/55761ae82b4cad76d8a2bcd380edd3bd.jpg) no-repeat center;
+  background-size: cover;
+  content: "";
+}
+.container .contents .tab1 .right_list .s4_price {
+  opacity: 0;
+}
+.container .contents .tab1 .right_list .s5 {
+  width: 33.33%;
+  height: 150px;
+  background: url(../images/02725e76afedc00bcb27046d7cfee3c3.jpg) no-repeat center;
+  background-size: cover;
+  content: "";
+}
+.container .contents .tab1 .right_list .s5_price {
+  opacity: 0;
+}
+.container .contents .tab1 .right_list .s6 {
+  width: 33.33%;
+  height: 150px;
+  background: url(../images/d3da39478faf148e16cd38a73ec2ef69.jpg) no-repeat center;
+  background-size: cover;
+  content: "";
+}
+.container .contents .tab1 .right_list .s6_price {
+  opacity: 0;
+}
+.container .contents .tab2 {
+  width: 100%;
+  height: 300px;
+  background: blueviolet;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+.container .contents .tab2 .big {
+  background: url(../images/);
+}
+.container .contents .tab2 .big_price {
+  opacity: 0;
+}
+.container .contents .tab2 .right_list .s1 {
+  background: url(../images/);
+}
+.container .contents .tab2 .right_list .s1_price {
+  opacity: 0;
+}
+.container .contents .tab2 .right_list .s2 {
+  background: url(../images/);
+}
+.container .contents .tab2 .right_list .s2_price {
+  opacity: 0;
+}
+.container .contents .tab2 .right_list .s3 {
+  background: url(../images/);
+}
+.container .contents .tab2 .right_list .s3_price {
+  opacity: 0;
+}
+.container .contents .tab2 .right_list .s4 {
+  background: url(../images/);
+}
+.container .contents .tab2 .right_list .s4_price {
+  opacity: 0;
+}
+.container .contents .tab2 .right_list .s5 {
+  background: url(../images/);
+}
+.container .contents .tab2 .right_list .s5_price {
+  opacity: 0;
+}
+.container .contents .tab2 .right_list .s6 {
+  background: url(../images/);
+}
+.container .contents .tab2 .right_list .s6_price {
+  opacity: 0;
+}/*# sourceMappingURL=design.css.map */
