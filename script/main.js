@@ -6,7 +6,15 @@ const gnb_a = document.querySelectorAll('.gnb a')
 console.log(tab1,tab2)
 console.log(gnb_a)
 //메뉴 마우스 오버 이벤트
-
-gnb_a.addEventListener('mouseover',()=>{
-    console.log(tab1.value)
+gnb_a.forEach((i,index)=>{
+    console.log(i)
+    i.addEventListener('mouseover',()=>{
+        console.log(index)
+        if(index%2 == 0){
+            tab1.style.opacity = 1
+        }
+        else {
+            tab1.style.opacity = 0
+        }
+    })
 })
